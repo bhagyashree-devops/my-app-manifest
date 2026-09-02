@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: bhagyashreesv/devops-frontend:v1
+        image: bhagyashreesv/devops-frontend:v2
         ports: [{ containerPort: 80 }]
 ---
 apiVersion: v1
